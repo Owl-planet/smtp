@@ -1,4 +1,7 @@
 import smtplib
+x = input("Your Gmail Address : ")
+y = input("Your Gmail Password : ")
+z = input("Your Message : ")
 #################################################################################################################
 def send_mail(email,password,message):                                                                          #
     email_server = smtplib.SMTP("smtp.gmail.com",587) ## Server Address, Port.                                  #
@@ -9,4 +12,4 @@ def send_mail(email,password,message):                                          
 #################################################################################################################
 ## <-------------------- Coded By SBDH-cosmin (Owl-planet) https://github.com/Owl-planet --------------------> ##
 #################################################################################################################
-send_mail("example@gmail.com" , "password123" , "test")
+send_mail("{}" , "{}" , "{}".format(x,y,z))
